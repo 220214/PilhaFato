@@ -11,7 +11,7 @@ public class Principal {
 		int v;
 		do {
 			v =(int)((Math.random()*100) +1);
-		}while((v>=0) && (v <=10));
+		}while(v >10);
 		FatController f = new FatController(v);
 				
 		}
